@@ -164,7 +164,9 @@ The following measurements were obtained from a local RTX 4080 SUPER system.
 | Weight Precision | FP8 E4M3FN |
 | FP8 Linear Modules | 200 |
 | FP8 Checkpoint Size | Approximately 20.97 GB |
+| Output Resolution | 8 MP (8 megapixels) |
 | Sampling Steps | 6 |
+| Resolution | 8MP |
 | Dynamic Scaling Calls | 200 on first forward |
 | Six-Step Denoising | Approximately 24.4 seconds |
 | Complete Workflow | Approximately 48.05 seconds |
@@ -557,6 +559,7 @@ MiniMax H3-Image 的社区许可证对衍生模型的使用和再分发存在限
 - ComfyUI 0.45.0。
 - FP8 E4M3FN，200 个核心 Linear。
 - FP8 DiT 大约 20.97GB。
+- 实测出图分辨率：8MP（约 800 万像素）。
 - 动态激活缩放 200 次调用。
 - 六步去噪约 24.4 秒。
 - 完整工作流约 48.05 秒。
